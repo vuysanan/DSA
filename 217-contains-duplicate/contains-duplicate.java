@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 class Solution 
 {
-    // will traverse the array compare the current value to the previous value if whether of not they are equal
+    // will traverse the array compare the current value to the next value if whether of not they are equal
     public boolean containsDuplicate(int[] nums) 
     {
         Arrays.sort(nums);
